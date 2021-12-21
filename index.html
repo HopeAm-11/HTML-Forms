@@ -6,35 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
     <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
-    <div class="sign-in-wrapper">
-        <section>
-            <p></p>
-            <p></p>
-            <button></button>
-        </section>
-    </div>
-    <header class="nav-primary">
-        <ul>
-            <li><a href="#">mint</a></li>
-            <li><a href="#">quickbooks</a></li>
-            <li><a href="#">turbotax</a></li>
-        </ul>
+    <section class="signin-container flex-b">
+        <div>
+            <p>Already have an Intuit account?</p>
+            <a href="#" class="secondary-links">I forgot my User ID or Password</a>
+        </div>
+        <button class="signin-btn">sign in</button>
+    </section>
+    <header class="header-primary flex-b">
+        <div class="logo"></div>
+        <nav class="nav-primary">
+            <ul class=" flex-e">
+                <li class="nav-icon1 "><a href="#">mint</a></li>
+                <li class="nav-icon2"><a href="#">quickbooks</a></li>
+                <li class="nav-icon3 "><a href="#">turbotax</a></li>
+            </ul>
+        </nav>
     </header>
-    <main>
+    <main class="flex-b">
         <!--heading-->
-        <section class="main-title">
-            <header class="main-header">
+        <section>
+            <header class="main-header flex-e">
                 <h1>Create an Intuit account</h1>
-                <p>One account for everything Intuit, including Mint.</p>
-                <a href="#">learn more</a>
+                <p>One account for everything Intuit, including Mint.
+                    <a class="secondary-links" href="#">learn more</a></p>
             </header>
         </section>
         <!--form section-->
         <form action="#" method="get">
-            <fieldset>
+            <fieldset class="flex-b">
                 <label> Email
                     <input type="email" name="email">
                 </label>
@@ -48,27 +52,41 @@
             </fieldset>
         </form>
         <footer class="main-foot">
-            <section>
-                <p></p>
-                <p></p>
-            </section>
-            <section>
-                <p></p>
-            </section>
+            <p>By selecting Create account, you agree to our Terms and have read and acknowledge our Global Privacy
+                Statement.</p>
+            <p>Updates effective on January 10, 2022</p>
         </footer>
+        <section class="p flex-b">
+            <p> Invisible reCAPTCHA by Google Privacy Policy and Terms of Use. </p>
+        </section>
     </main>
-    <footer>
-        <nav class="sec-nav">
-            <ul>
-                <li><a href="#">Legal</a></li>
-                <li><a href="#">Privacy</a></li>
-                <li><a href="#">Security</a></li>
-            </ul>
-        </nav>
-        <p></p>
+    <footer class="sec-foot">
+        <section class="foot">
+            <nav class="sec-nav">
+                <ul>
+                    <li><a href="#">Legal</a></li>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Security</a></li>
+                </ul>
+            </nav>
+            <section class="p-w">
+                <p>© 2021 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are
+                    registered
+                    trademarks of Intuit Inc.
+                </p>
+                <p> Terms and conditions, features, support, pricing, and service options subject to change without
+                    notice.
+                </p>
+            </section>
+        </section>
+        <section class="foot-a">
+            <div>
+                <a href="#">Privacy Settings</a>
+            </div>
+        </section>
     </footer>
-    <div>
-        <a href=""></a>
+    </div>
+    <a href=""></a>
     </div>
 </body>
 
