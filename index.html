@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form</title>
+    <title>Sign Up - Form</title>
     <link rel="stylesheet" href="style.css">
 
 </head>
@@ -27,50 +27,60 @@
             </ul>
         </nav>
     </header>
-    <main class="flex-b">
+    <!--main section-->
+    <main class="flex-a">
         <!--heading-->
-        <section>
-            <header class="main-header flex-e">
-                <h1>Create an Intuit account</h1>
-                <p>One account for everything Intuit, including Mint.
-                    <a class="secondary-links" href="#">learn more</a></p>
-            </header>
-        </section>
-        <!--form section-->
-        <form action="#" method="get">
-            <fieldset class="flex-b">
-                <label> Email
-                    <input type="email" name="email">
-                </label>
-                <label> phone
-                    <input type="tel" name="phone">
-                </label>
-                <label> password
-                    <input type="password" name="pass">
-                </label>
-                <button name="submit">create account</button>
-            </fieldset>
-        </form>
-        <footer class="main-foot">
-            <p>By selecting Create account, you agree to our Terms and have read and acknowledge our Global Privacy
-                Statement.</p>
-            <p>Updates effective on January 10, 2022</p>
-        </footer>
-        <section class="p flex-b">
-            <p> Invisible reCAPTCHA by Google Privacy Policy and Terms of Use. </p>
-        </section>
+        <div class="flex-b">
+            <section>
+                <header class="main-header flex-e">
+                    <h1>Create an Intuit account</h1>
+                    <p>One account for everything Intuit, including Mint.
+                        <a class="secondary-links" href="#">learn more</a></p>
+                </header>
+            </section>
+            <!--form section-->
+            <form action="#" method="get">
+                <fieldset class="flex-b">
+                    <label> Email
+                        <input type="email" name="email">
+                    </label>
+                    <label for="tell" class="label flex-b"> phone
+                        <span>(recommended)</span>
+                    </label>
+                    <input id="tell" type="tel" name="phone" class="phone">
+                    <p class="p-label"> Standard call, message, or data rates may apply.</p>
+                    <label> password
+                        <input type="password" name="pass" class="input-pass">
+                    </label>
+                    <button name="submit">create account</button>
+                </fieldset>
+            </form>
+            <footer class="main-foot">
+                <p>By selecting Create account, you agree to our <a href="#" class="secondary-links">Terms</a> and have
+                    read and acknowledge our
+                    <a href="#" class="secondary-links">Global Privacy Statement</a>
+                    .</p>
+                <p>Updates effective on January 10, 2022</p>
+            </footer>
+            <section class="policy flex-b">
+                <p> Invisible reCAPTCHA by Google <a href="#" class="secondary-links">Privacy Policy</a> and<a href="#"
+                        class="secondary-links">Terms of Use</a> . </p>
+            </section>
+        </div>
     </main>
-    <footer class="sec-foot">
+    <!--footer section-->
+    <footer class="primary-foot flex-b">
         <section class="foot">
-            <nav class="sec-nav">
+            <nav class="secondary-nav">
                 <ul>
                     <li><a href="#">Legal</a></li>
                     <li><a href="#">Privacy</a></li>
                     <li><a href="#">Security</a></li>
                 </ul>
             </nav>
-            <section class="p-w">
-                <p>© 2021 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are
+            <section>
+                <p>&#169;2021 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint
+                    are
                     registered
                     trademarks of Intuit Inc.
                 </p>
@@ -79,15 +89,10 @@
                 </p>
             </section>
         </section>
-        <section class="foot-a">
-            <div>
-                <a href="#">Privacy Settings</a>
-            </div>
+        <section class="foot-link flex-b">
+            <a href="#" class="secondary-links">Privacy Settings</a>
         </section>
     </footer>
-    </div>
-    <a href=""></a>
-    </div>
 </body>
 
 </html>
